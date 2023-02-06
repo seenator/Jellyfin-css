@@ -1307,37 +1307,3 @@ div[data-role=controlgroup] a[data-role=button]+a[data-role=button] {
 .layout-mobile .itemExternalLinks {
     display: block !important;
 }
-
-@media (hover:hover) and (pointer:fine) {
-    .skipIntro .paper-icon-button-light:hover:not(:disabled) {
-        color: black !important;
-        background-color: transparent !important;
-    }
-}
-
-.skipIntro {
-    padding: 0 1px !important;
-    position: absolute;
-    right: 10%;
-    top: 80vh;
-    background-color: rgba(25, 25, 25, 0.66);
-    border: 1px solid;
-    border-radius: 0px;
-    display: inline-block;
-    cursor: pointer;
-    box-shadow: inset 0 0 0 0 #f9f9f9;
-    -webkit-transition: ease-out 0.4s;
-    -moz-transition: ease-out 0.4s;
-    transition: ease-out 0.4s;
-}
-
-.skipIntro .skip_next {
-    margin-left: 0.1em;
-}
-
-.skipIntro:hover {
-    box-shadow: inset 400px 0 0 0 #f9f9f9;
-    -webkit-transition: ease-in 1s;
-    -moz-transition: ease-in 1s;
-    transition: ease-in 1s;
-}
